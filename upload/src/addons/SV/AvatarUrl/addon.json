@@ -1,0 +1,16 @@
+{
+    "legacy_addon_id": "SVAvatarUrl",
+    "title": "Avatar Url",
+    "description": "Rewrites Avatar URLS to be more cache friendly. Requires host support.",
+    "version_id": 2000000,
+    "version_string": "2.0.0",
+    "dev": "Xon",
+    "dev_url": "https://atelieraphelion.com",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require" : {
+        "php": ["5.6.0", "PHP 5.6.0+"]
+    },
+    "icon": ""
+}
