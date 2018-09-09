@@ -7,8 +7,8 @@ WARNING, requires URL rewrite support from host!
 Nginx config:
 
 ```
-location ^~ /data/avatar/ {
-    rewrite ^/data/avatar/([0-9]*)/(.*)$ /data/avatars/$2 last;
-    return 403;
-}
+    location ^~ /data/avatar/ {
+         rewrite ^/data/avatar/([0-9]*)/(.*)$ /data/avatars/$2 last;
+         return 403;
+     }
 ```
