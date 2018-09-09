@@ -20,7 +20,7 @@ class User extends XFCP_User
             $group = floor($this->user_id / 1000);
 
             return $app->applyExternalDataUrl(
-                "avatars/{$this->avatar_date}/{$sizeCode}/{$group}/{$this->user_id}.jpg",
+                "avatar/{$this->avatar_date}/{$sizeCode}/{$group}/{$this->user_id}.jpg",
                 $canonical
             );
         }
